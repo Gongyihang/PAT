@@ -28,7 +28,7 @@ int main()
         printf("\n");
     }
 
-    printf("%d", n - sum);
+    printf("%d %d\n", count,n - sum);
     system("pause");
     return 0;
 }
