@@ -14,8 +14,8 @@ int main()
     while ((ch = getchar()) != '\n') {
         sum += (ch - '0');
     }
-    sprintf(s, "%d", sum);//将sum转换为字符数组s，相当于tostring的思路
-    for (int i = 0; s[i] != '\0'; i++) {//遍历到字符数组的末尾，末尾以'\0'为结束
+    sprintf(s, "%d", sum); //将sum转换为字符数组s，相当于tostring的思路
+    for (int i = 0; s[i] != '\0'; i++) { //遍历到字符数组的末尾，末尾以'\0'为结束
         if (i > 0)
             printf(" ");
         printf("%s", zidian[s[i] - '0']);
