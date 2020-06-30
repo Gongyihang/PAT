@@ -6,7 +6,6 @@
 #include <vector>
 using namespace std;
 
-
 /*
 
 AAPAATAAAA
@@ -17,6 +16,20 @@ a=2,b=2,c=4
 
 a * b == c
 p * (t - p - 1) == s.size() - t - 1
+
+aPbTc是正确的，那么aPbATca是正确的
+
+PAT是正确的，那么PAAT->那么PAAAT->那么PAAAAT正确
+a='' b=A c=''  PAT
+那么''PAAT''' -> PAAT是正确的
+
+APATA是正确的，那么APAATAA正确->那么APAAATAAA正确
+a=A b=A c=A   APATA
+那么 APAATAA -> APAATAA是正确的
+
+AAPATAA是正确的，那么AAPAATAAAA->那么AAPAAATAAAAAA正确
+a=AA b=A c=AA   AAPATAA
+那么 AAPAATAAAA是正确的
 
 */
 
