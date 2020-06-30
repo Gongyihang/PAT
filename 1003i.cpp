@@ -1,20 +1,20 @@
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <string>
 #include <math.h>
-#include <stdio.h>
-#include <string.h>
+using namespace std;
 
-int main()
-{
-    char a[100], n;
-    gets(a);
-    scanf("%c", &n);
-    int count = 0, i;
-
-    for (i = 0; a[i] != '\0'; i++) {
-        if (a[i] == n) {
-            count++;
+int main(){
+    int n;
+    cin >> n;
+    string s;
+    for(int i = 0;i < n;i++){
+        cin >> s;
+        for(int j = 0;j < (int)s.size();j++){
+            
         }
     }
-    printf("%d", count);
     system("pause");
     return 0;
 }
