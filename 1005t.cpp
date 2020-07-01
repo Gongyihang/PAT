@@ -16,8 +16,7 @@
 7 6
 */
 #include <stdio.h>
-int main()
-{
+int main(){
     int removeNumber(int, int*);
     void del(int a, int* q);
     int a[6];
